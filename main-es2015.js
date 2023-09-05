@@ -480,7 +480,7 @@ class LoginComponent {
     }
 }
 LoginComponent.ɵfac = function LoginComponent_Factory(t) { return new (t || LoginComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_main_service__WEBPACK_IMPORTED_MODULE_5__["MainService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClient"])); };
-LoginComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: LoginComponent, selectors: [["app-login"]], decls: 17, vars: 4, consts: [[1, "wrapper", "fadeInDown"], ["id", "formContent"], [1, "fadeIn", "first"], ["src", "assets/taisaLogo.png", "id", "icon", "alt", "DAK"], ["id", "self"], ["novalidate", "", 3, "formGroup", "ngSubmit"], [1, "form-group"], ["type", "email", "id", "login", "formControlName", "email", "placeholder", "Enter email"], ["class", "form-text text-muted", 4, "ngIf"], ["type", "password", "id", "password", "formControlName", "password", "placeholder", "Password"], ["type", "submit", "value", "Log In", 1, "fadeIn", "fourth", "btn", "btn-primary", 3, "disabled"], ["id", "formFooter"], ["type", "button", "value", "Forgot Password", 1, "a", 3, "click"], [1, "form-text", "text-muted"]], template: function LoginComponent_Template(rf, ctx) { if (rf & 1) {
+LoginComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: LoginComponent, selectors: [["app-login"]], decls: 17, vars: 4, consts: [[1, "wrapper", "fadeInDown"], ["id", "formContent"], [1, "fadeIn", "first"], ["src", "assets/DAK_LOGO.png", "id", "icon"], ["id", "self"], ["novalidate", "", 3, "formGroup", "ngSubmit"], [1, "form-group"], ["type", "email", "id", "login", "formControlName", "email", "placeholder", "Enter email"], ["class", "form-text text-muted", 4, "ngIf"], ["type", "password", "id", "password", "formControlName", "password", "placeholder", "Password"], ["type", "submit", "value", "Log In", 1, "fadeIn", "fourth", "btn", "btn-primary", 3, "disabled"], ["id", "formFooter"], ["type", "button", "value", "Forgot Password", 1, "a", 3, "click"], [1, "form-text", "text-muted"]], template: function LoginComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 2);
@@ -1138,7 +1138,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 14, vars: 0, consts: [[1, "footer"], [1, "row"], [1, "col-3", "col-md-12"], [1, "logo-container"], ["src", "assets/LOGO-ResidanceYasmine2.png", "alt", "Logo de la Universidad Mayor", 1, "logo-umayor-footer"], [1, "footer-column"], ["href", "mailto:rector@umayor.cl"], ["href", "https://goo.gl/maps/tjB6Rkfk3fitcvz8A"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 14, vars: 0, consts: [[1, "footer"], [1, "row"], [1, "col-3", "col-md-12"], [1, "logo-container"], ["src", "assets/LOGO-ResidanceYasmine2.png", 1, "logo-umayor-footer"], [1, "footer-column"], ["href", "mailto:rector@umayor.cl"], ["href", "https://goo.gl/maps/tjB6Rkfk3fitcvz8A"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1196,7 +1196,7 @@ class CarouselComponent {
     }
 }
 CarouselComponent.ɵfac = function CarouselComponent_Factory(t) { return new (t || CarouselComponent)(); };
-CarouselComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CarouselComponent, selectors: [["app-carousel"]], decls: 8, vars: 0, consts: [["id", "landing-carousel", "data-bs-ride", "carousel", 1, "carousel", "slide"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "assets/yasmine1.jpg", "alt", "First slide", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"], [1, "carousel-item"], ["src", "assets/yasmine2.jpg", "alt", "Second slide", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"], ["src", "assets/yasmine3.jpg", "alt", "First slide", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"]], template: function CarouselComponent_Template(rf, ctx) { if (rf & 1) {
+CarouselComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CarouselComponent, selectors: [["app-carousel"]], decls: 8, vars: 0, consts: [["id", "landing-carousel", "data-bs-ride", "carousel", 1, "carousel", "slide"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "assets/yasmine1.jpg", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"], [1, "carousel-item"], ["src", "assets/yasmine2.jpg", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"], ["src", "assets/yasmine3.jpg", "alt", "First slide", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"]], template: function CarouselComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -6627,16 +6627,6 @@ class newsListComponent {
         this.moduleDocument = [];
         this.filterInfos = { title: 'hello' };
         this.filterReglement = { type: 'Réglement' };
-        this.centres = [
-            {
-                img: 'https://www.akberiqbal.com/favicon.ico',
-                name: "name 1",
-                streetAddress: "street 1",
-                city: "city 1",
-                province: "province 1",
-                postalCode: "postalcode 1",
-            }
-        ];
         this.open = true;
         this.i = 0;
         this.index = 1000;
