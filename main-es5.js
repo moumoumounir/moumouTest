@@ -6248,7 +6248,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function getJson() {
           // let paramString1='colName=Ref_Request&colValue='+this.echangeData['Ref_Request']+'&sheet=userRequestValidation'
           console.log(' json  getJson ');
-          return this.httpClient.get("moumouTest/assets/dbcomposantForm.json").toPromise();
+          return this.httpClient.get("assets/dbcomposantForm.json").toPromise();
         }
       }, {
         key: "ngOnInit",
@@ -7103,7 +7103,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         key: "getJson",
         value: function getJson() {
           console.log(' json  getJson ');
-          return this.httpClient.get("moumouTest/assets/dbcomposantForm.json").toPromise();
+          return this.httpClient.get("assets/dbcomposantForm.json").toPromise();
         }
       }, {
         key: "ngOnInit",
