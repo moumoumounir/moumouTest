@@ -1,0 +1,12 @@
+{"form":{
+    "Designation"	:{"type":"text","label":"Designation","value":""	,"disabled":false},	
+    "Statut"		:{"type":"text","label":"Statut","value":""	 	,"disabled":false},
+    "Camera"		:{"type":"text","label":"Camera","value":""	 	,"disabled":false}
+	
+},
+"TitleFormObject":"Détails Composant",
+"displayedColumns" : [	"Designation", 	"Statut","Camera"],
+"actionColumns" :[ "details"],
+"titleList":"Liste des composants "
+   
+    }    
