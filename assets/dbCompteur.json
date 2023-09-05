@@ -1,0 +1,19 @@
+{   
+    "TitleFormObject":"MàJ Indes Compteur",
+
+    "form":{
+    "Date":{"type":"pickDate","label":"Date","value":"sysdate","disabled":true},
+    "Compteur":{"type":"ValueApiSelect","label":"Compteur","value":"","paramValue": ["Hall","Ascensseur D","Ascensseur G"]},
+    "Ancien_index":{"type":"text","label":"Ancien index","value":"","disabled":true},
+    "Index":{"type":"text","label":"Index","value":"","disabled":false},
+    "Start_Date":{"type":"startDate","label":"Start Date","value":""},
+    "End_Date":{"type":"endDate","label":"End Date","value":""},
+    "Attached_Files":{"type":"file","label":"Attached Files","value":"f1.txt"}
+    
+} , 
+
+"displayedColumns" : ["Date" 	,"Compteur" 	,"Ancien_index","Index" ],
+"actionColumns" : ["add","download","delete","details", "update"],
+"titleList":"Suivi des Compteurs Steg"
+
+}  
