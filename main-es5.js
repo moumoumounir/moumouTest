@@ -2288,7 +2288,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-carousel"]],
       decls: 8,
       vars: 0,
-      consts: [["id", "landing-carousel", "data-bs-ride", "carousel", 1, "carousel", "slide"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "assets/yasmine1.jpg", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"], [1, "carousel-item"], ["src", "assets/yasmine2.jpg", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"], ["src", "assets/yasmine3.jpg", "alt", "First slide", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"]],
+      consts: [["id", "landing-carousel", "data-bs-ride", "carousel", 1, "carousel", "slide"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "assets/yasmine1.jpg", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"], [1, "carousel-item"], ["src", "assets/yasmine2.jpg", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"], ["src", "assets/yasmine3.jpg", 1, "d-block", "w-100", 2, "width", "100%", "height", "100%"]],
       template: function CarouselComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
