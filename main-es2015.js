@@ -3266,7 +3266,7 @@ class composantCrudComponent {
     getJson() {
         // let paramString1='colName=Ref_Request&colValue='+this.echangeData['Ref_Request']+'&sheet=userRequestValidation'
         console.log(' json  getJson ');
-        return this.httpClient.get("assets/dbcomposantForm.json").toPromise();
+        return this.httpClient.get("moumouTest/assets/dbcomposantForm.json").toPromise();
     }
     ngOnInit() {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
@@ -3751,7 +3751,7 @@ class composantListComponent {
     }
     getJson() {
         console.log(' json  getJson ');
-        return this.httpClient.get("assets/dbcomposantForm.json").toPromise();
+        return this.httpClient.get("moumouTest/assets/dbcomposantForm.json").toPromise();
     }
     ngOnInit() {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
