@@ -1,0 +1,35 @@
+{   
+"TitleFormObject":"Add & Update Interaction",
+"form":{
+    "NA1":{"type":"NothingDate","label":"NA1","value":""},
+   
+     "Date":{"type":"pickDate","label":"Date","value":"sysdate"},	
+   
+		"Coproprietaire":{"type":"text","label":"Coproprietaire","value":"localStorage.getItem('user')","disabled":true},
+		"Composant":{"type":"ValueApiSelect","label":"Composant","value":"","disabled":false},
+		"Subject":{"type":"text","label":"Subject","value":""},
+		"Type":{"type":"select","label":"Type","value":"","paramValue":["Demande Info","Declaration"],"disabled":false},
+		"Statut":{"type":"select","label":"Statut","value":"Open","paramValue":["Open","progress","Close"],"disabled":false},
+		"NA2":{"type":"Nothing","label":"NA2","value":""},
+		"Attached_File":{"type":"file","label":"Attached File","value":""}, 
+		
+		"Message":{"type":"textarea","label":"Message","value":"","disabled":false}
+		} , 
+"displayedColumns" : ["interaction_id" 	,"Date" , "Type"	,"Coproprietaire" 	,"Composant","Subject"  ],
+"actionColumns" : ["Add", "details", "delete"],
+"titleList":"List des Interactions",
+"retourform":{
+    		"NA1":{"type":"NothingDate","label":"NA1","value":""},
+     		"Date":{"type":"pickDate","label":"Date","value":"sysdate"},	
+   
+			"Coproprietaire":{"type":"text","label":"Coproprietaire","value":"localStorage.getItem('user')","disabled":true},
+			"Composant":{"type":"text","label":"Composant","value":"","disabled":true},
+			"Subject":{"type":"text","label":"Subject","value":"","disabled":true},
+			"Type":{"type":"text","label":"Type","value":"","disabled":true},
+			"Attached_File":{"type":"file","label":"Attached File","value":""},
+			"Message":{"type":"textarea","label":"Message","value":"","disabled":true},                                                                                          		
+			"Retour":{"type":"textarea","label":"Retour","value":"","disabled":false,"hide":true},
+			"Responsable":{"type":"text","label":"Responsable","value":"localStorage.getItem('user')","disabled":true,"hide":true}
+			} 
+
+}  

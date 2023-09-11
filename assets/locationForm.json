@@ -1,0 +1,49 @@
+{   
+    "TitleFormObject":"MàJ Location Info",
+
+    "form":{ 
+    "NA1":{"type":"NothingDate","label":"NA1","value":""},
+   
+     "Date":{"type":"pickDate","label":"Date","value":"sysdate"},	
+   
+    "Ref":{"type":"text","label":"Ref","value":"localStorage.getItem('user')","disabled":true},
+    
+    "Type":{"type":"select","label":"Type","value":"Estival","paramValue": ["Estival","Universitaire","Annuelle","Courte Durée"]},
+	"Nature":{"type":"select","label":"Nature","value":"","paramValue": ["Famille","Celibataire"]},
+	"Nationality":{"type":"select","label":"Nationality","value":"Tunisien","paramValue": ["Tunisien","Algerien","Lybien","Africaion","Europe","MidleEast","Amerique"]},
+
+
+    "Nom":{"type":"text","label":"Nom","value":"", "validator":["required","stringPatternValidator(^[a-z0-9_-]{4,15}$)"]},
+	"Prenom":{"type":"text","label":"Prenom","value":"","validator":["required","stringPatternValidator(^[a-z0-9_-]{4,15}$)"]},
+	"Phone":{"type":"text","label":"Phone","value":"","validator":["required","minLength(8)","stringPatternValidator(^[0-9]\\d*$)"]},
+    "Identite_id":{"type":"text","label":"Identite_id","value":"","validator":["required","minLength(5)","stringPatternValidator(^[a-z0-9_-]{8,15}$)"]},
+	"Email":{"type":"text","label":"Email","value":"","validator":["required","minLength(5)","stringPatternValidator(^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$)"]},
+                                                                           
+	"Nbr_Personne":{"type":"number","label":"Nbr Personne","value":"1"},
+	
+
+    "Start_Date":{"type":"startDate","label":"Start Date","value":""},
+
+
+    "End_Date":{"type":"endDate","label":"End Date","value":""},
+    "Fichier_Contrat":{"type":"file","label":"Fichier Contrat","value":""}
+    
+} , 
+
+"displayedColumns" : ["Ref","Type","Nature","Date","Nom" ,"Phone","Start_Date","End_Date" ],
+"actionColumns" : ["add","download","delete","details", "update"],
+"titleList":"Suivi des Locations & Mutation"
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
